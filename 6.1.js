@@ -7,9 +7,9 @@ function increaseBalance(x, y) {
   x -= y;
   return x;
   }
-  function increment (decreaseBalance){
-    decreaseBalance = x
-    return x;
+  function increment (balance){
+    ++balance
+    return balance;
   }
   
   function divideBalanceByAccounts(x, y) {
@@ -32,4 +32,4 @@ function increaseBalance(x, y) {
   console.log(divideBalanceByAccounts(3000, 2));
   console.log(getRestAfterDivision(7000, 3));
   console.log(decrement(6))
-  console.log (increment(9))
+  console.log (increment(78))
